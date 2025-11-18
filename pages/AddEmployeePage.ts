@@ -16,6 +16,7 @@ export class AddEmployeePage {
   }
 
   async verifyEmployeeCreated() {
-    await expect(this.personalDetailsHeader).toBeVisible();
+    //Longer timeout because OrangeHRM loads slowly
+    await expect(this.personalDetailsHeader).toBeVisible({ timeout: 20000 });
   }
 }

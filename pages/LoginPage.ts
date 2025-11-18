@@ -9,7 +9,7 @@ export class LoginPage {
   errorMessage = this.page.locator('.oxd-alert-content-text');
 
   async goto() {
-    await this.page.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login');
+    await this.page.goto('web/index.php/auth/login');
   }
 
   async login(username: string, password: string) {
