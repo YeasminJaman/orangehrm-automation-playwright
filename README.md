@@ -15,26 +15,27 @@ This project contains 4 critical automated UI tests for OrangeHRM:
 
 ##  Project Structure
 
+```
 OrangeHRM/
-│── pages/ # Page Object Models
-│ ├── LoginPage.ts
-│ ├── DashboardPage.ts
-│ ├── PIMPage.ts
-│ ├── AddEmployeePage.ts
+│── pages/                     # Page Object Models
+│   ├── LoginPage.ts
+│   ├── DashboardPage.ts
+│   ├── PIMPage.ts
+│   ├── AddEmployeePage.ts
 │
-│── tests/ # Test Specifications
-│ ├── login.spec.ts
-│ ├── invalidLogin.spec.ts
-│ ├── addEmployee.spec.ts
-│ ├── logout.spec.ts
+│── tests/                     # Test Specifications
+│   ├── login.spec.ts
+│   ├── invalidLogin.spec.ts
+│   ├── addEmployee.spec.ts
+│   ├── logout.spec.ts
 │
-│── utils/ # Utility / Test Data
-│ └── testData.ts
+│── utils/                     # Utility / Test Data
+│   └── testData.ts
 │
-│── playwright.config.ts # Playwright configuration
+│── playwright.config.ts       # Playwright configuration
 │── package.json
 │── README.md
-
+```
 
 ## Run Tests
 npm install  
